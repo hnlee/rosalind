@@ -30,7 +30,7 @@ def generate_mismatches(kmer, indices, mismatches):
         new_kmer[j] = mismatches[i]
     return ''.join(new_kmer)
 
-input_file = 'rosalind_1g.txt'
+input_file = 'rosalind_ba1i.txt'
 input = open(input_file, 'r')
 
 for line in input:
